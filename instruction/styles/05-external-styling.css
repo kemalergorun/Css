@@ -1,0 +1,11 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    color: orangered;
+    text-align: center;
+}
+p{
+    color: chartreuse;
+    text-align: justify;
+}
