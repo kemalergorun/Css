@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    /* 1- It !important is used, it will be applied with priority. */
+    color: red !important; 
+}
+
+.title{
+    color: green;
+}

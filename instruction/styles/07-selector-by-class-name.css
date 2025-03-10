@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: red;
+}
+/* class name is written with . before it */
+/* if the class name is custom we can use it with .custom name */
+
+/* tag name is written directly */
+.custom{
+    background-color: violet;
+    font-size: 20px;
+    text-align: justify;
+}
