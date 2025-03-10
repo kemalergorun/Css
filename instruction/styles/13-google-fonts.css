@@ -1,0 +1,31 @@
+/* FIRST AND SECOND WAY */
+body{
+    font-family: "Goldman", 'Times New Roman', Times, serif;
+}
+
+/* THIRD WAY */
+/* Uploading Local Font Families */
+
+@font-face{
+    font-family: "123";
+    src: url("../fonts/Goldman-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "123";
+    src: url("../fonts/Goldman-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    font-family: "123";
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}

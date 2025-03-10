@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+a{
+    /* Most of the time, we will make it none. */
+    /* text-decoration: none;
+
+    /* text-decoration-style: dotted;
+    text-decoration-line:  overline;
+    text-decoration-color: blueviolet; */
+    
+    /*               style  line           color */
+    text-decoration: double line-through red;
+
+    /* This changes the color of the text, not the decoration. */
+    color: #333;
+
+}
+
+p{
+    text-decoration: solid underline blue;
+    color: blue;
+    font-style: italic;
+}
+
+.text{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

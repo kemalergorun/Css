@@ -1,0 +1,16 @@
+.title{
+    color: red;
+}
+
+h1{
+    color: gold;
+}
+
+/* As there is no any !important and inline styling descriptive selector will be applied. */
+h1.title{
+    color: purple;
+}
+
+*{
+    color: green;
+}
