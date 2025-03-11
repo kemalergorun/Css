@@ -1,0 +1,43 @@
+:root{
+    font-size: 20px;
+}
+
+html,
+body{
+    /* This is a common practice: */
+     height: 100vh;
+    /* height: 100%; */
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+/* % sign takes reference of its parent. If its parent is body, then it will adjust itself with the screen size. */
+.container{
+    background-color: red;
+    width: 700px;
+    height: 50vh;
+}
+
+/* vw is not dependent on its parent, it depends on browser screen width (device width). */
+.message{
+    background-color: greenyellow;
+    width: 50vw;
+    height: 40vh;
+}
+
+.font-container{
+    font-size: 10px;
+}
+
+.first{
+    /* 2em means 2 times of its parent size */
+    font-size: 2em;
+}
+
+.second{
+    /* 2rem means 2 times of :root */
+    font-size: 2rem;
+}

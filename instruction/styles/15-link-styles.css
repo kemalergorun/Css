@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+h1:hover{
+    background-color: red;
+    color: white;
+}
+
+a{
+    font-size: 24px;
+}
+
+/* Whenever href in a link is not visited, this ruleset will be applied. */
+a:link{
+    color: orangered;
+    text-decoration: wavy underline orangered;
+}
+
+/* Whenever cursor on the element, this ruleset will be applied. Hover can be applied any element. */
+a:hover{
+    background-color: orangered;
+    color: white;
+}
+
+/* Whenever you hold clicking your mouse, this ruleset will be applied. */
+a:active{
+    background-color: darkblue;
+    color: wheat;
+}
+
+/* Whenever the link in the href is visited, this ruleset will be applied. */
+a:visited{
+    color: cadetblue;
+    text-decoration: dashed underline greenyellow;
+}
