@@ -1,0 +1,23 @@
+*{
+    list-style: decimal;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+nav.navbar ul li a{
+    text-decoration: none;
+    color: crimson;
+    background-color: blanchedalmond;
+}
+/* For one rule for more than one element, we can write selectors by separating them with comas. */
+
+h1,
+ul,
+li,
+a{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+.container{
+    background-color: #333;
+    height: 500px;
+}
+
+.box{
+    background-color: crimson;
+    height: 100px;
+    width: 150px;
+
+    /* Left alignment: */
+    /* margin-left: 0;
+    margin-right: auto; */
+
+    /* Right alignment: */
+    /* margin-left: auto;
+    margin-right: 0; */
+
+    /* Center alignment */
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    margin: 0px auto;
+
+
+}
+.box{
+    background-color: crimson;
+    height: 100px;
+    width: 150px;
+
+
+}
