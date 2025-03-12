@@ -40,7 +40,44 @@ input.focus{
     width: 100px;
     height: 100px;
 }
+ul.list{
+    list-style-type: none;
+    font-size: 20px;
+}
 
+li:nth-child(odd){
+    background-color: rebeccapurple;
+    color: lightpink;
+}
+
+li:first-child{
+    background-color: crimson;
+    color: pink;
+}
+
+li:last-child{
+    background-color: darkblue;
+    color: lightblue;
+}
+
+li:nth-child(3){
+    background-color: green;
+    color: lawngreen;
+}
+
+
+
+p:first-of-type,
+p:last-of-type{
+    background-color: black;
+    color: white;
+}
+
+a:first-child,
+a:last-child{
+    background-color: blue;
+    color: black;
+}
 
 
 

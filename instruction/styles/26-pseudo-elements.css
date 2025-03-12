@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+p.paragraph1::first-letter{
+    font-size: 30px;
+    font-style: italic;
+    color: blue;
+    background-color: whitesmoke;
+}
+
+p.paragraph2::first-line{
+    font-size: 30px;
+    font-weight:bold;
+    color: rebeccapurple;
+}
+p.paragraph3::selection{
+    background-color: blueviolet;
+    color: blue;
+}
+li::marker{
+    color: orange;
+}
+div.box{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+
+}
+
+div.box::before,
+div.box::after{
+    content: "-------";
+    color: white;
+    display: inline-block;
+    padding: 10px;
+
+
+}
