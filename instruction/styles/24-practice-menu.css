@@ -1,0 +1,29 @@
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: darkgray;
+    padding: 10px 20px;
+    margin-right: 5px;
+    color: white;
+}
+
+nav ul li:hover{
+    background-color: chartreuse;
+    color: black;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
+

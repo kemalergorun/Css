@@ -1,0 +1,79 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+h1:active{
+    background-color: salmon;
+    color: crimson;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: black;
+    color: gold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
+
+.visited:visited{
+    color: tomato;
+    background-color: pink;
+}
+
+input.focus{
+    padding: 10px 20px;
+}
+
+.focus:focus{
+    background-color: black;
+    color: white;
+}
+
+.checkbox:checked{
+    width: 100px;
+    height: 100px;
+}
+9:56
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <link rel="stylesheet" href="./styles/25-pseudo-classess.css">
+</head>
+<body>
+    <h1>Pseudo Classes</h1>
+
+    <button type="button" title="Click me" class="btn">Click Me!</button>
+
+    <br>
+
+    <a href="https://www.google.com" class="visited">Visited Link</a>
+
+    <br>
+
+    <input type="text" class="focus" placeholder="Your name please">
+
+    <br>
+
+    <input type="checkbox" name="chx" id="chx" class="checkbox">
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
