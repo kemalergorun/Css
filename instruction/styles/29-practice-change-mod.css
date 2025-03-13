@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+label.label{
+    font-size: 100px;
+    display: block;
+    text-align: center;
+}
+
+input#chx{
+    display: none;
+}
+
+.box{
+    height: 70vh;
+    background-color: blue;
+    margin-top: 25px;
+}
+
+/* #chx:checked + div.box{
+    background-color: blueviolet;
+} */
+
+
+#chx:checked ~ div.box{
+    background-color: blueviolet;
+}
+
+
+
+
+
+

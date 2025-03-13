@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+.container{
+    display: flex;
+
+    /* DEFAULT flex-direction: row */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* DEFAULT justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; => align first and last elements on edges and give the same spacing for each of the elements. */
+    /* justify-content: space-around; => The empty space before the first and after the last item equals half of the space between each pair of adjacent items. */
+    /* justify-content: space-evenly; all items including first and last item has the same amount of spaces. */
+
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    /* display: inline-block; */
+}
+
+
+
+
+
+

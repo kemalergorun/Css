@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+.outer-container{
+    border: 5px solid red;
+}
+
+.inner-container{
+    border: 5px solid green;
+}
+
+/* If p tag is the first level child of outer-container, following styles will be applied to it. */
+/* child combinator (>) */
+.outer-container > p{
+    font-size: 30px;
+}
+
+/* .outer-container .inner-container p{
+    font-size: 30px;
+} */
+
+/* if .list is followed right after .outer-container, following rules will be applied. */
+/* Next Sibling Combinator */
+.outer-container + .list{
+    list-style-type: none;
+    font-size: 30px;
+}
+
+/* If there is any a tag after .outer-container as sibling, following rules will be applied.  */
+/* Subsequent Sibling Combinator */
+.outer-container ~ a, 
+.outer-container ~ p{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
