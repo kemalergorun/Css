@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+        .shopping-cart {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .shopping-cart th,
+        .shopping-cart td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .shopping-cart th {
+            background-color: #f5f5f5;
+        }
+
+        .total-row {
+            font-weight: bold;
+            border-top: 2px solid #333;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            margin-right: 15px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .buttons a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <table class="shopping-cart">
+        <thead>
+            <tr>
+                <th>Product Code</th>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Subtotal</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>154654</td>
+                <td>Notebook</td>
+                <td>1</td>
+                <td>5.400 ₽</td>
+                <td>5.400 ₽</td>
+                <td>💬</td>
+            </tr>
+            <tr>
+                <td>456466</td>
+                <td>Keyboard</td>
+                <td>2</td>
+                <td>80 ₽</td>
+                <td>160 ₽</td>
+                <td>💬</td>
+            </tr>
+            <tr>
+                <td>564646</td>
+                <td>Monitor</td>
+                <td>1</td>
+                <td>700 ₽</td>
+                <td>700 ₽</td>
+                <td>💬</td>
+            </tr>
+            <tr>
+                <td>123598</td>
+                <td>Mouse</td>
+                <td>2</td>
+                <td>50 ₽</td>
+                <td>100 ₽</td>
+                <td>💬</td>
+            </tr>
+            <tr>
+                <td>613448</td>
+                <td>Play Station</td>
+                <td>1</td>
+                <td>2.500 ₽</td>
+                <td>2.500 ₽</td>
+                <td>💬</td>
+            </tr>
+            <tr>
+                <td>789799</td>
+                <td>USB Device</td>
+                <td>3</td>
+                <td>120 ₽</td>
+                <td>360 ₽</td>
+                <td>💬</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="total-row">
+                <td colspan="4">TOTAL</td>
+                <td>9.220 ₽</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="buttons">
+        <a href="#">Continue Shopping</a>
+        <a href="#">Payment</a>
+    </div>
+</body>
+</html>

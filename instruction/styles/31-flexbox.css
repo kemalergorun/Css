@@ -1,9 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1{
     text-align: center;
     color: red;
 }
 
 .container{
+
+    background-color: #333;
+    height: 70vh;
+
     display: flex;
 
     /* DEFAULT flex-direction: row */
@@ -18,7 +28,21 @@ h1{
     /* justify-content: space-around; => The empty space before the first and after the last item equals half of the space between each pair of adjacent items. */
     /* justify-content: space-evenly; all items including first and last item has the same amount of spaces. */
 
-    
+    /* DEFAULT align-items: stretch; */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+       /* *** FLEX DIRECTION DETERMINES JUSTIFY CONTENT AND ALIGN ITEMS DIRECTION *** */
+    /* ROW => X AXIS JUSTIFY CONTENT - Y AXIS ALIGN ITEMS  */
+    /* COLUMN => X AXIS ALIGN ITEMS - Y AXIS JUSTIFY CONTENT  */
+
+
 }
 
 .box{
