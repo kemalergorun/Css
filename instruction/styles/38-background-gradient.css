@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    margin: 20px 0px;
+}
+
+.container{
+    width: 100%;
+    height: 300px;
+    border: 10px solid black;
+    margin: 20px 0;
+}
+
+.container1{
+    /* background-image: linear-gradient(black, gold); */
+    /* background-image: linear-gradient(to left, black, gold); */
+    /* background-image: linear-gradient(45deg, black, gold); */
+
+    background-image: linear-gradient(60deg, black 20%, gold 1%, goldenrod 10%, orangered, purple);
+}
+
+.container2{
+
+    /* background-image: radial-gradient(black, turquoise); */
+    /* background-image: radial-gradient(circle, black, turquoise); */
+    background-image: radial-gradient(circle, black 50%, turquoise, skyblue, white);
+
+
+
+}

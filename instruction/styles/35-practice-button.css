@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+.buttons-container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: black;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: darkblue;
+    color: chartreuse;
+    font-weight: 900;
+    border: 5px solid chartreuse;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:first-child{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.btn:last-child{
+    /* border-top-right-radius: 40px; */
+    /* border-bottom-right-radius: 40px; */
+
+    /* top left - top right - bottom right - bottom left */
+    border-radius: 10px 40px 40px 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

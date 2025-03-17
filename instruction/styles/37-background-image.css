@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+.image-container{
+    width: 500px;
+    height: 500px;
+
+    border: 10px solid saddlebrown;
+    background-image: url("../images/bg.jpg");
+
+    /* Default beahivor is repeat, if you want to use only one, you should add following property and value: */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+
+    /* horizontal: left, right and center */
+    /* vertical: top, bottom, center */
+    background-position: center center;
+
+    /* cover may break the size of the image while contain will keep the actual size but there may be some spaces on edges. */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 300px 400px;
+}
+
+
+.image-container2{
+    width: 100%;
+    height: 300px;
+    border: 15px solid gray;
+    margin: 50px 0;
+
+    background-image: url("../images/ai.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

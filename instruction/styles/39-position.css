@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    margin: 10px 0;
+}
+
+.container, .container2{
+    height: 700px;
+    background-color: blanchedalmond;
+    border: 5px solid;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.box1{
+    background-color: red;
+
+    position: relative;
+    bottom: -150px;
+    right: -50px;
+}
+
+.box2{
+    background-color: greenyellow;
+
+    position: relative;
+    left: 50px;
+    top: 150px;
+}
+
+.box3{
+    background-color: skyblue;
+
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
