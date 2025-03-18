@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    margin: 20px 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.btn{
+    padding: 4px 8px;
+    background-color: red;
+    border: 3px solid crimson;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.btn1:hover{
+
+    background-color: blue;
+    transition: background-color .5s;
+    color: red;
+
+}
+
+
+.btn2:hover{
+
+    transform: rotateX(180deg);
+    transition: all 1s;
+    background-color: gold;
+
+}
+
+.btn3:hover{
+    background-color: mediumspringgreen;
+    color: darkblue;
+    border: 3px solid darkblue;
+
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+
+    /* transition: style-name(all) duration(s) type(ease...) delay(s)   */
+
+}

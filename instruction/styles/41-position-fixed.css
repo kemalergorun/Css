@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 30px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    margin: 20px 0;
+}
+
+/* POSITION FIXED */
+
+.container1{
+    background-image: url("../images/whatsapp.svg");
+    background-size: cover;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    /* top: 0px; */
+    /* left: 0px; */
+    bottom: 50px;
+    right: 50px;
+    opacity: .5;
+
+}
+
+.container1:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* POSITION STICKY */
+
+div.navbar{
+    width: 100%;
+    background-color: red;
+    position: sticky;
+    top: 0;
+
+}
+
+
+.navbar2{
+    width: 100%;
+    background-color: yellow;
+    position: sticky;
+    bottom: 0;
+    /* z-index: 2; */
+}
+
+.navbar3{
+    width: 100%;
+    background-color: blue;
+    position: sticky;
+    bottom: 0;
+    /* We should not use z-index frequently, in frequent usages positions of items can be confusing. */
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
