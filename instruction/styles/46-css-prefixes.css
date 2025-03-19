@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  margin: 20px 0;
+}
+
+p {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(black),
+    to(crimson)
+  );
+  background: -o-linear-gradient(left, black, crimson);
+  background: linear-gradient(to right, black, crimson);
+  color: white;
+  padding: 20px;
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0
+    ;padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    margin: 20px 0;
+}
+
+p{
+    margin: 20px;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+/* max-width => apply the following styles before/smaller the value given */
+/* -1000 width style: */
+@media (max-width: 1000px){
+    
+    p{
+        font-size: .6rem;
+    }
+
+}
+
+/* min-width => apply the following styles after/bigger the value given */
+/* +1100 width style: */
+@media (min-width: 1100px) {
+
+    p{
+        font-size: 1rem;
+    }
+    
+}
+
+@media (min-width: 500px){
+    p{
+        color: red;
+    }
+}
+
+@media screen and (max-width: 768px){
+    p{
+        color: green;
+    }
+}
+
+/* Whenever you page is printed, following styles will be applied: */
+@media print{
+    img{
+        display: none;
+    }
+
+    p{
+        color: blue;
+    }
+}
+@media (min-width: 500px) and (max-width: 1000px){
+
+    p{
+        background-color: blue;
+    }
+
+
+}
+
+@media (min-width: 1000px) or (max-width: 500px){
+    p{
+        font-weight: bold;
+        font-style: italic;
+    }
+}
+
+
+
+
+
+

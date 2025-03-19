@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    margin: 20px 0;
+
+    text-shadow: 3px 3px 3px aqua;
+}
+
+p{
+
+    font-size: 2rem;
+    text-align: center;
+
+    text-shadow: 5px 5px 5px chartreuse;
+}
+
+.container{
+    /* background-color: cadetblue; */
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+
+    /*          x   y   blur  spread  color */
+    box-shadow: 3px 3px 10px  3px   yellow;
+}
+
+.container:hover{
+    box-shadow: 3px 3px 20px 5px orange;
+    transition: all .5s;
+
+}
+
+
+
+
+
+
